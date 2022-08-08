@@ -64,3 +64,40 @@ hr{
     height: 30vh;
     text-align: center;
 }
+
+#s1 {
+    display:flex;
+}
+
+#s2 {
+    display: none;
+}
+
+#s3 {
+    display: none;
+}
+
+#next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+#prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+#prev:hover, #next:hover {
+    background-color: rgba(106, 103, 103, 0.992);
+}
+
+#button {
+    left: 50%;
+    position: absolute;
+
+}
+
+button {
+    width: 30px;
+    height: 30px;
+}
